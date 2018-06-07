@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mtraina/ethereum-and-solidity-sample#readme",
   "dependencies": {
-    "npm": "^6.1.0"
+    "npm": "^6.1.0",
+    "solc": "^0.4.24"
   }
 }
