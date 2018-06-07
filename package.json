@@ -1,0 +1,22 @@
+{
+  "name": "ethereum-and-solidity-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtraina/ethereum-and-solidity-sample.git"
+  },
+  "author": "mtraina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtraina/ethereum-and-solidity-sample/issues"
+  },
+  "homepage": "https://github.com/mtraina/ethereum-and-solidity-sample#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
