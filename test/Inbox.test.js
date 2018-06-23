@@ -1,6 +1,6 @@
 const assert = require('assert');
 const ganache = require('ganache-cli');
-// capitalized because it is a constractor function
+// capitalized because it is a constructor function
 const Web3 = require('web3');
 
 // UPDATE THESE TWO LINES RIGHT HERE!!!!! <-----------------
@@ -31,4 +31,9 @@ describe('Inbox', () => {
       const message = await inbox.methods.message().call();
       assert.equal(message, 'Hi there!');
     });
+    it('can change the message', async () => {
+        await inbox.methods.setMessage('bye').send({ from: accounts[0] })
+        const message = await inbox.methods.message().call()
+        assert.equal(message, 'bye');
+      });
   });
